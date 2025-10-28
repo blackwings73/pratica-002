@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portland Trail Blazers - Lendas e Estrelas Atuais</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">Portland Trail Blazers</h1>
+      <nav class="nav-links">
+        <a href="#lendas">Lendas</a>
+        <a href="#atuais">Atuais</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <button class="hamburger" id="hamburger">☰</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h2>A História e o Presente de um Gigante da NBA</h2>
+      <p>Conheça as lendas que marcaram o Portland Trail Blazers e os astros que continuam sua trajetória.</p>
+      <a href="#lendas" class="btn-primary">Explorar Jogadores</a>
+    </div>
+  </section>
+
+  <main class="content">
+    <section id="lendas" class="players-section">
+      <h2 class="section-title">🏀 Lendas do Passado</h2>
+      <div class="players-grid">
+        <div class="player-card"><img src="https://m.media-amazon.com/images/I/81WUUqWkM8L._UF1000,1000_QL80_.jpg" alt="Clyde Drexler" /><h3>Clyde Drexler</h3><p>Líder e astro dos anos 80 e 90, conduziu o time às finais da NBA e é ídolo eterno em Portland.</p></div>
+        <div class="player-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKifjU8RKlDFdGi131JMoBg4LOdMV0TqaF2w&s" alt="Bill Walton" /><h3>Bill Walton</h3><p>Campeão da NBA em 1977, MVP e uma das figuras mais carismáticas da história dos Blazers.</p></div>
+        <div class="player-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz3cbyjdlIhVuMB2sx_nusyeu4xIZlPXYedQ&s" alt="Terry Porter" /><h3>Terry Porter</h3><p>Um dos melhores armadores da história da franquia, com precisão e liderança exemplar.</p></div>
+        <div class="player-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQntFFMEPe3S5C9VvSC-hD9ajc6SDzS7vHeKg&s" alt="Rasheed Wallace" /><h3>Rasheed Wallace</h3><p>Um ala-pivô dominante, símbolo de intensidade e paixão dentro de quadra nos anos 2000.</p></div>
+        <div class="player-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8nJTtwrvSW7JiktCEjezNTMBRytSNj2glww&s" alt="Brandon Roy" /><h3>Brandon Roy</h3><p>Ídolo recente que encantou os torcedores com seu talento, antes de uma carreira abreviada por lesões.</p></div>
+      </div>
+    </section>
+
+    <section id="atuais" class="players-section">
+      <h2 class="section-title">🔥 Estrelas Atuais</h2>
+      <div class="players-grid">
+        <div class="player-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPaiCdmylJog2Ush9KpedclcOjht9UjVUa0Q&s" alt="Damian Lillard" /><h3>Damian Lillard</h3><p>Principal nome dos Blazers na última década, referência em liderança e clutch shots memoráveis.</p></div>
+        <div class="player-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-PR_Ao4ONCBqFTwUvtoc8ypKIz9UB64BJeA&s" alt="Anfernee Simons" /><h3>Anfernee Simons</h3><p>Jovem promessa e um dos melhores arremessadores da nova geração do Portland.</p></div>
+        <div class="player-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReTA9jApB3gBhbEzzLKUNKBWqZvmg-wLEFIA&s" alt="Scoot Henderson" /><h3>Scoot Henderson</h3><p>O futuro da franquia. Armador veloz, carismático e com potencial de estrela da NBA.</p></div>
+        <div class="player-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDhHJ5GmVMlXyhqm1Eq-g_YNxvhHomZpZlQ&s" alt="Jerami Grant" /><h3>Jerami Grant</h3><p>Ala versátil e atlético, peça-chave no sistema ofensivo e defensivo dos Blazers.</p></div>
+        <div class="player-card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6-falfcEZCUZEuFNEzb_QCxRgYivijr4yxQ&s" alt="Deandre Ayton" /><h3>Deandre Ayton</h3><p>Pivô dominante com presença física, controle do garrafão e força no rebote.</p></div>
+      </div>
+    </section>
+
+    <section id="contato" class="contact-section">
+      <h2>Contato</h2>
+      <form class="contact-form">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" required />
+        <label for="email">Email</label>
+        <input type="email" id="email" required />
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" required></textarea>
+        <button type="submit" class="btn-primary">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Portland Trail Blazers Fanpage - Desenvolvido para fins educacionais</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
