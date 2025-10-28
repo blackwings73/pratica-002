@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="styles.css">
 ;body{background:#0d0d0d;color:white;font-family:Poppins,sans-serif;text-align:center;}
 :root {
   --color-primary: #e03a3e;
@@ -211,3 +212,4 @@ const nav = document.querySelector('.nav-links');
 hamburger.addEventListener('click', () => {
   nav.classList.toggle('active');
 })
+
